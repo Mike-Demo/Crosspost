@@ -1,0 +1,271 @@
+{
+  "boltSlidesVersion": 1,
+  "deck": {
+    "title": "Crosspost — write it once, be everywhere it matters",
+    "transition": "fade",
+    "font": "manrope",
+    "accent": "#FF6B2C"
+  },
+  "slides": [
+    {
+      "id": "s1",
+      "position": 0,
+      "layout": "cover",
+      "props": {
+        "kicker": "Crosspost",
+        "title": "Write it ==once==. Be everywhere it matters.",
+        "subtitle": "One composer for X, Bluesky, Threads, Mastodon, and Tumblr.",
+        "foot": "github.com/Mike-Demo/crosspost"
+      },
+      "background": {
+        "type": "color",
+        "color": "var(--bg)"
+      },
+      "animation": "cascade",
+      "transition": null,
+      "nav": null,
+      "notes": "Open with the pain everyone knows: you wrote one good post, and it only went to one network. Crosspost is the fix.",
+      "status": "none"
+    },
+    {
+      "id": "s2",
+      "position": 1,
+      "layout": "statement",
+      "props": {
+        "kicker": "The problem",
+        "title": "Five tabs. Five composers. Five ==slightly different== formats.",
+        "body": "So people post to one place — and the rest of their audience never sees it."
+      },
+      "background": {
+        "type": "color",
+        "color": "var(--bg)"
+      },
+      "animation": "cascade",
+      "transition": null,
+      "nav": null,
+      "notes": "Everyone with more than one account has felt this. The relay dies not from lack of ideas, but from lack of evening.",
+      "status": "none"
+    },
+    {
+      "id": "s3",
+      "position": 2,
+      "layout": "steps",
+      "props": {
+        "kicker": "What it does",
+        "title": "One post in. Five places out.",
+        "items": [
+          {
+            "title": "Compose once",
+            "body": "One dashboard, one editor — no tab juggling."
+          },
+          {
+            "title": "Pick your networks",
+            "body": "X, Bluesky, Threads, Mastodon, Tumblr — any mix."
+          },
+          {
+            "title": "Crosspost adapts",
+            "body": "Text, links, and images tuned per platform."
+          },
+          {
+            "title": "It publishes",
+            "body": "Sent everywhere in one go."
+          }
+        ]
+      },
+      "background": {
+        "type": "color",
+        "color": "var(--bg)"
+      },
+      "animation": "cascade",
+      "transition": null,
+      "nav": null,
+      "notes": "The key word is adapts — this is not paste-into-five-boxes. Each network gets its own properly formatted version.",
+      "status": "none"
+    },
+    {
+      "id": "s4",
+      "position": 3,
+      "layout": "tabs",
+      "props": {
+        "kicker": "How it works",
+        "title": "Connect once, write, choose, ==send==.",
+        "tabs": [
+          {
+            "label": "X",
+            "content": "Same thought, trimmed for the timeline: tight copy, link, image attached. Nothing cut off mid-sentence."
+          },
+          {
+            "label": "Bluesky",
+            "content": "The full version — longer text fits natively, link card renders, image loads clean."
+          },
+          {
+            "label": "Threads",
+            "content": "Conversational tone, no hashtag clutter, image framed for the feed."
+          },
+          {
+            "label": "Mastodon",
+            "content": "Character count respected for your instance, alt text carried over, link kept inline."
+          },
+          {
+            "label": "Tumblr",
+            "content": "Richer body text, image front and center — the format Tumblr readers expect."
+          }
+        ]
+      },
+      "background": {
+        "type": "color",
+        "color": "var(--bg)"
+      },
+      "animation": "cascade",
+      "transition": null,
+      "nav": null,
+      "notes": "Click through the tabs live. The point to land: per-platform previews mean nothing goes out looking broken.",
+      "status": "none"
+    },
+    {
+      "id": "s5",
+      "position": 4,
+      "layout": "contrast",
+      "props": {
+        "kicker": "Built for real routines",
+        "title": "From manual relay to automatic fan-out.",
+        "left": {
+          "label": "Tonight, manually",
+          "title": "Copy-paste relay",
+          "points": [
+            "Five tabs, five composers, every evening",
+            "Reformat text and images for each one",
+            "Skip a network and part of your audience never sees it"
+          ]
+        },
+        "right": {
+          "label": "With Crosspost",
+          "title": "Write once, fan out",
+          "points": [
+            "Daily posts publish to every network automatically",
+            "One composer, one send",
+            "Previews catch anything broken before it ships"
+          ]
+        }
+      },
+      "background": {
+        "type": "color",
+        "color": "var(--bg)"
+      },
+      "animation": "cascade",
+      "transition": null,
+      "nav": null,
+      "notes": "This is the habit slide: Crosspost is not a one-off tool, it replaces a nightly chore you keep doing forever.",
+      "status": "none"
+    },
+    {
+      "id": "s6",
+      "position": 5,
+      "layout": "bento",
+      "props": {
+        "kicker": "Key features",
+        "title": "Everything the relay needed — ==minus the relay==.",
+        "tiles": [
+          {
+            "k": "01",
+            "title": "One composer",
+            "body": "Draft once, publish anywhere.",
+            "c": 2
+          },
+          {
+            "k": "02",
+            "title": "Per-platform previews",
+            "body": "See each version before it ships."
+          },
+          {
+            "k": "03",
+            "title": "Images, handled",
+            "body": "Cropped and attached per network."
+          },
+          {
+            "k": "04",
+            "title": "Link cards",
+            "body": "Links unfurl correctly everywhere."
+          },
+          {
+            "k": "05",
+            "title": "Connect once",
+            "body": "Accounts stay connected across posts."
+          },
+          {
+            "k": "06",
+            "title": "Open source",
+            "body": "Read it, fork it, self-host it.",
+            "variant": "accent"
+          }
+        ]
+      },
+      "background": {
+        "type": "color",
+        "color": "var(--bg)"
+      },
+      "animation": "cascade",
+      "transition": null,
+      "nav": null,
+      "notes": "Don't read every tile. Highlight previews and per-platform handling, then point at the open-source tile for the next slide.",
+      "status": "none"
+    },
+    {
+      "id": "s7",
+      "position": 6,
+      "layout": "figures",
+      "props": {
+        "title": "Working app. Open source. ==Live today==.",
+        "body": "Crosspost is built, running, and public — clone it, run it, make it yours.",
+        "cards": true,
+        "items": [
+          {
+            "label": "Working app",
+            "value": "Live",
+            "caption": "Composing and cross-posting work today"
+          },
+          {
+            "label": "Open source",
+            "value": "Public",
+            "caption": "Full code on GitHub"
+          },
+          {
+            "label": "Networks",
+            "value": "5",
+            "caption": "X, Bluesky, Threads, Mastodon, Tumblr"
+          }
+        ]
+      },
+      "background": {
+        "type": "color",
+        "color": "var(--bg)"
+      },
+      "animation": "cascade",
+      "transition": null,
+      "nav": null,
+      "notes": "Credibility beat: this is a real thing people can use right now, not a mockup — and anyone can read the code.",
+      "status": "none"
+    },
+    {
+      "id": "s8",
+      "position": 7,
+      "layout": "cover",
+      "props": {
+        "kicker": "Crosspost",
+        "title": "Write it once. Be ==everywhere==.",
+        "subtitle": "github.com/Mike-Demo/crosspost",
+        "foot": "Open source · Star it, fork it, start cross-posting"
+      },
+      "background": {
+        "type": "color",
+        "color": "var(--bg)"
+      },
+      "animation": "cascade",
+      "transition": "zoom",
+      "nav": null,
+      "notes": "Close on the repo link. Ask for the one action you want: visit the repo and try it.",
+      "status": "none"
+    }
+  ],
+  "boltSlidesId": "11011050-f9d6-4d43-8a9e-3e43af51bbaf"
+}
